@@ -1,0 +1,19 @@
+[project]
+name = "payflow-backend"
+version = "0.1.0"
+description = "payment ingestion and reconciliation backend for payflow"
+authors = [
+    {name = "Sathvik1533v"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "fastapi (>=0.143.0,<0.144.0)",
+    "uvicorn[standard] (>=0.54.0,<0.55.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
